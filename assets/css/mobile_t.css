@@ -1,73 +1,182 @@
 /* Primeiro Article */
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .welcome-image {
-        width: 100%;
-        margin-left: 0; 
+    .first-article {
+        display: flex;
+        position: relative !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-    .description {
-        margin-left: 150px;
-        margin-right: -100px;
-        font-size: 18px;
-    }
-    
-    .form-mentoria {
-        width: 100%; 
-        margin-left: 130px !important;
-    }
-    
-    /* Segundo Article */
-    .benefits-image {
-        width: 60%; 
-        margin: 0 auto;
-    }
-
-    .benefits {
-        font-size: 18px; 
-        margin-left: -100px;
-        margin-right: -50px;
+    .welcome {
+        font-size: 80px;
         z-index: 1;
+        position: static !important;
+        text-align: center !important;
+        margin-top: 50px;
     }
-    
-    .benefits-list {
-        font-size: 16px; 
-        margin-left: -100px;
-        margin-right: -50px;
+
+    .welcome-description {
+        margin-top: 10px;
         z-index: 1;
-        margin-top: -5px;
+        position: static !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 20px;
     }
 
-    /* Terceiro Article */
-    .tooth-image {
-        width: 80%; 
-        margin-bottom: 200px; 
-        margin-left: -20px; 
-    }
-    
-    .tooth-text {
-        font-size: 20px; 
-        text-align: center; 
-        margin-left: -200px;
-    }
-    
-    .protes-image {
-        width: 50%;
-        height: 30%;
-        margin-left: 420px;
-    }
-
-    /* Footer */
-    .footer {
-        flex-direction: column;
-        align-items: center; 
-        padding: 20px 0; 
-    }
-
-    .social-icons {
+    .welcome-call {
         margin-top: 20px;
+        z-index: 1;
+        position: static !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 30px;
+    }
+
+    .welcome-list {
+        font-size: 18px;
+        position: static !important;
+        z-index: 1;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+
+    .form-mentoria {
+        width: 600px;
+        margin-left: 15%;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important
+    }
+
+    button {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+
+    .welcome-image {
+        margin-top: 20px;
+        width: 700px;
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .second-article {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .call-second {
+        position: static !important;
+        z-index: 1;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 36px;
+    }
+
+    .description-second {
+        font-size: 24px;
+        position: static !important;
+        z-index: 1;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .button-second {
+        padding: 10px 20px;
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .third-article {
+        display: flex !important;
+        position: relative !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .third-image {
+        z-index: 1;
+        position: static !important;
+        width: 500px;
+    }
+
+    .title {
+        font-size: 60px;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        z-index: 1;
+        position: static !important;
+        margin-top: 10px !important;
+    }
+
+    .call {
+        font-size: 24px;
+        z-index: 1;
+        position: static !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .description {
+        margin-top: -150px;
+        font-size: 20px;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .container-form {
+        flex-direction: column-reverse;
+    }
+
+    .form-third {
+        width: 600px;
+        margin-left: 50px;
+        margin-right: 10%;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative
+}
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     body {

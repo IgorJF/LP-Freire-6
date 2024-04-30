@@ -1,7 +1,11 @@
+@font-face {
+    font-family: Europa;
+    src: url(../fonts/Europa-Bold/Europa-Bold.ttf);
+}
 
 @font-face {
-    font-family: InterBold;
-    src: url(../fonts/static/Inter-Bold.ttf);
+    font-family: Citrus;
+    src: url(../fonts/FontsFree-Net-c2537321-918e-4def-a018-cba7bcc0779d.ttf);
 }
 
 .third-article {
@@ -10,35 +14,42 @@
     position: relative;
 }
 
-.third-flex{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.tooth-text {
+.title{
+    font-size: 70px;
     color: white;
-    font-size: 40px;
-    font-family: "InterBold";
+    font-family: "Citrus";
     z-index: 1;
-    position: absolute; 
-    top: 20%; 
-    left: 650px;
-    transform: translateY(-50%);
+    position: static !important; 
+    margin-top: 120px; 
+    text-align: center !important;
 }
 
-.protes-image {
-    width: 500px;
-    height: 350px;
-    object-fit: cover;
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 400px;
-    z-index: 99;
+.call{
+    font-size: 24px;
+    color: white;
+    font-family: "Europa";
+    z-index: 1;
+    position: static !important; 
+    margin-top: 25px; 
+    text-align: center !important;
+    text-transform: uppercase;
 }
 
+.description{
+    margin-top: 10px;
+    color: white;
+    font-family: "Europa";
+    z-index: 1;
+    position: static !important; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
-.tooth-image{
-   margin-left: -50px;
+.container-form {
+    display: flex;
 }
 
