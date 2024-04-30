@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Seus outros elementos head aqui -->
+    
+    <!-- Código do Pixel do Facebook -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'SEU_ID_DE_PIXEL_AQUI');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=SEU_ID_DE_PIXEL_AQUI&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- Fim do Código do Pixel do Facebook -->
+</head>
+
+<body>
+    <!-- Seu conteúdo HTML aqui -->
+
+    <!-- Primeiro Article -->
+    <article class="first-article">
+        <!-- Seus outros elementos aqui -->
+
+        <div class="form-mentoria">
+            <section>
+                <form method="post" action="https://api.sheetmonkey.io/form/7D1FFszqdn6te2GfmbmJqN">
+                    <div class="form">
+                        <div class="nome">
+                            <input type="text" name="name" id="contact-name" placeholder="Nome" required />
+                        </div>
+                        <div class="numero">
+                            <input type="text" name="numero" id="contact-numero" placeholder="Número" required />
+                        </div>
+                        <!-- Adicione um ID único ao botão -->
+                        <button type="submit" id="form-submit-button">Quero Transformar Minha Vida!</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </article>
+
+    <!-- Seu outro conteúdo HTML aqui -->
+
+    <!-- JavaScript para rastrear o clique do botão -->
+    <script>
+        // Adicione um listener de evento de clique ao botão
+        document.getElementById("form-submit-button").addEventListener("click", function() {
+            // Informe ao Facebook que o botão foi clicado
+            fbq('track', 'Lead');
+        });
+    </script>
+</body>
+
+</html>
