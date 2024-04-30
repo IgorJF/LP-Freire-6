@@ -1,0 +1,58 @@
+@font-face {
+    font-family: InterBlack;
+    src: url(../fonts/static/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+
+.first-article {
+    display: flex;
+    background: #000000;
+    position: relative;
+}
+
+.welcome-text {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.welcome-text .form-mentoria {
+    margin-left: 250px;
+}
+
+.title{
+    font-size: 70px;
+    color: white;
+    font-family: "InterBlack";
+    z-index: 1;
+    position: static !important; 
+    margin-top: 120px; 
+    margin-left: 80px;
+    margin-right: -180px;
+    text-align: center !important;
+}
+
+.description{
+    margin-top: 10px;
+    color: white;
+    font-family: "InterRegular";
+    z-index: 1;
+    position: static !important; 
+    margin-top: 20px; 
+    margin-left: 250px;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.welcome-image{
+    margin-left: -100px;
+}
+

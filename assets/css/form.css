@@ -1,0 +1,42 @@
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+.form-mentoria {
+    max-width: 800px; 
+    z-index: 1;
+}
+
+.form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+button {
+    text-align: right;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(198, 140, 23);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "InterBold";
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: rgb(109, 76, 9);
+}

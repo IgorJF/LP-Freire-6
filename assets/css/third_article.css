@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+.third-article {
+    background: #000000;
+    padding: 20px;
+    position: relative;
+}
+
+.third-flex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.tooth-text {
+    color: white;
+    font-size: 40px;
+    font-family: "InterBold";
+    z-index: 1;
+    position: absolute; 
+    top: 20%; 
+    left: 650px;
+    transform: translateY(-50%);
+}
+
+.protes-image {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 400px;
+    z-index: 99;
+}
+
+
+.tooth-image{
+   margin-left: -50px;
+}
+

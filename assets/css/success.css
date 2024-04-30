@@ -1,0 +1,83 @@
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+    font-family: "InterBold";
+    margin-left: 20px;
+    text-align: center;
+}
+
+.image {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 768px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+      
+
+    body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative
+    }
+
+    .success {
+        color: white;
+        font-size: 30px;
+        position: static !important;
+        z-index: 1;
+        font-family: "InterBold";
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        margin-top: 400px !important;
+    }
+
+    .image {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    body {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .success {
+        color: white;
+        font-size: 50px;
+        position: relative;
+        z-index: 1;
+        font-family: "InterBold";
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
